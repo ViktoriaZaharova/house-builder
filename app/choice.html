@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+  <meta charset="utf-8">
+  <title>АО Компания
+    «Домостроитель»</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="mobile-menu">
+  <div class="btn-close"></div>
+
+  <a href="index.html" class="logo">
+    <span class="logo-icon"><img src="img/logo.png" alt=""></span>
+    <span class="logo-text">АО Компания «Домостроитель»</span>
+  </a>
+  <ul class="menu">
+    <li><a href="about.html">О доме</a></li>
+    <li><a href="quality.html">Качество</a></li>
+    <li><a href="choice.html">Выбор квартиры</a></li>
+    <li><a href="company.html">О нас</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+  </ul>
+
+  <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callbackModal">Оставить заявку</a>
+</div>
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex flex-wrap align-items-center">
+        <a href="index.html" class="logo">
+          <span class="logo-icon"><img src="img/logo.png" alt=""></span>
+          <span class="logo-text">АО Компания «Домостроитель»</span>
+        </a>
+        <ul class="menu">
+          <li><a href="about.html">О доме</a></li>
+          <li><a href="quality.html">Качество</a></li>
+          <li><a href="choice.html">Выбор квартиры</a></li>
+          <li><a href="company.html">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+
+        <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callbackModal">Оставить заявку</a>
+
+        <div class="btn-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="page page-choice p-70">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>Выбор квартиры</h1>
+      </div>
+
+      <div class="col-12">
+        <div class="wrapper">
+          <div class="page-choice-item">
+            <p>Количество комнат</p>
+            <ul class="nav nav-pills nav-choice" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active rooms-link" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                   role="tab" aria-controls="pills-home" aria-selected="true">
+                  <span class="rooms-name">1 комнатные</span>
+                  <span class="square">33 -  37,5 м²</span>
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rooms-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                   role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <span class="rooms-name">2 комнатные</span>
+                  <span class="square">56 -  65,7 м²</span>
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link rooms-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                   role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <span class="rooms-name">3 комнатные</span>
+                  <span class="square">74 -  76,7 м²</span>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="page-choice-item">
+            <p>На этаже</p>
+            <div class="scheme-img"><img src="img/schema.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="choice-box">
+              <div class="choice-box__head">
+                <h3>1 комнатная квартира</h3>
+                <ul class="actions">
+                  <li><a href="#"><img src="img/telegram.png" alt=""></a></li>
+                  <li><a href="#"><img src="img/print.png" alt=""></a></li>
+                </ul>
+              </div>
+              <div class="choice-box__body">
+                <h4>Выберите площадь</h4>
+
+                <div class="wrapper">
+                  <div class="apartment-plan">
+                    <ul class="nav nav-pills apartment-plan-nav" id="plane" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="plane-tab1" data-toggle="pill" href="#plane1" role="tab"
+                           aria-controls="plane1" aria-selected="true">33,24 м²</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="plane-tab2" data-toggle="pill" href="#plane2" role="tab"
+                           aria-controls="plane2" aria-selected="false">33,47 м²</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="plane-tab3" data-toggle="pill" href="#plane3" role="tab"
+                           aria-controls="plane2" aria-selected="false">35,43 м²</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="plane-tab4" data-toggle="pill" href="#plane4" role="tab"
+                           aria-controls="plane4" aria-selected="false">36,64 м²</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="plane-tab5" data-toggle="pill" href="#plane5" role="tab"
+                           aria-controls="plane5" aria-selected="false">36,91 м²</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="plane-tab6" data-toggle="pill" href="#plane6" role="tab"
+                           aria-controls="plane6" aria-selected="false">37,93 м²</a>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="plane-tabContent">
+                      <div class="tab-pane fade show active" id="plane1" role="tabpanel" aria-labelledby="plane-tab1">
+                        <div class="apartment-plan__img"><img src="img/plane.png" alt=""></div>
+                      </div>
+                      <div class="tab-pane fade" id="plane2" role="tabpanel" aria-labelledby="plane-tab2">
+                        <div class="apartment-plan__img"><img src="img/plane.png" alt=""></div>
+                      </div>
+                      <div class="tab-pane fade" id="plane3" role="tabpanel" aria-labelledby="plane-tab3">
+                        <div class="apartment-plan__img"><img src="img/plane.png" alt=""></div>
+                      </div>
+                      <div class="tab-pane fade" id="plane4" role="tabpanel" aria-labelledby="plane-tab4">
+                        <div class="apartment-plan__img"><img src="img/plane.png" alt=""></div>
+                      </div>
+                      <div class="tab-pane fade" id="plane5" role="tabpanel" aria-labelledby="plane-tab5">
+                        <div class="apartment-plan__img"><img src="img/plane.png" alt=""></div>
+                      </div>
+                      <div class="tab-pane fade" id="plane6" role="tabpanel" aria-labelledby="plane-tab6">
+                        <div class="apartment-plan__img"><img src="img/plane.png" alt=""></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <form method="post" class="options">
+                    <div class="options-box">
+                      <h4>Параметры квратиры</h4>
+                      <ul class="list-options">
+                        <li>
+                          <p>Площадь</p>
+                          <input class="square-item" placeholder="33,24 м²">
+                        </li>
+                        <li>
+                          <p>Этаж</p>
+                          <div class="amount square-item">
+                            <span class="down"><img src="img/minus.png" alt=""></span>
+                            <input type="text" value="5"/>
+                            <span class="up"><img src="img/plus.png" alt=""></span>
+                          </div>
+                        </li>
+                        <li>
+                          <p>Статус квартиры</p>
+                          <div class="square-item status-item">Свободна</div>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="price">2 000 000 руб.</div>
+
+                    <a href="#" class="btn btn-accent">Забронировать квартиру</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<section class="callback p-70">
+  <div class="container">
+    <div class="row">
+      <div class="col-12"><h2>Записаться на просмотр</h2></div>
+      <div class="col-12">
+        <form method="post" class="form w-100">
+          <div class="row">
+            <div class="col-12 col-md-6 mb-60">
+              <label><input type="text" placeholder="ФИО*" name="name" required></label>
+            </div>
+
+            <div class="col-12 col-md-6 mb-60">
+              <label><input type="text" placeholder="Телефон*" name="phone" required></label>
+            </div>
+
+            <div class="col-12">
+              <label><textarea name="message" placeholder="Ваш вопрос"></textarea></label>
+            </div>
+
+            <div class="col-12">
+              <div class="form-footer">
+                <div class="necessarily">* - Обязательное поле</div>
+                <button type="submit" class="btn btn-white">Оставить заявку</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contacts">
+  <div class="map" id="map"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="contacts-box">
+          <h2>Офис продаж:</h2>
+          <p>г. Пенза, ул. Перспективная,1</p>
+          <a href="mailto:dsk-dogotdel@yandex.ru" class="mail">dsk-dogotdel@yandex.ru</a>
+          <a href="tel:+78412933592" class="phone">93-35-92</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex flex-wrap align-items-center">
+        <a href="index.html" class="logo">
+          <span class="logo-icon"><img src="img/logo.png" alt=""></span>
+          <span class="logo-text">АО Компания «Домостроитель»</span>
+        </a>
+        <ul class="menu">
+          <li><a href="about.html">О доме</a></li>
+          <li><a href="quality.html">Качество</a></li>
+          <li><a href="choice.html">Выбор квартиры</a></li>
+          <li><a href="company.html">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+
+        <a href="#" class="btn btn-white" data-toggle="modal" data-target="#callbackModal">Оставить заявку</a>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Обратный звонок</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form w-100">
+          <div class="row">
+            <div class="col-12 mb-20">
+              <label><input type="text" placeholder="ФИО*" name="name" required></label>
+            </div>
+
+            <div class="col-12 mb-20">
+              <label><input type="text" placeholder="Телефон*" name="phone" required></label>
+            </div>
+
+
+            <div class="col-12">
+              <div class="form-footer">
+                <div class="necessarily">* - Обязательное поле</div>
+                <button type="submit" class="btn btn-accent">Оставить заявку</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

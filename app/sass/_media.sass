@@ -1,0 +1,353 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px)
+  .menu li a
+    padding: 5px 10px
+
+  footer .logo
+    font-size: 14px
+
+  .logo-text
+    max-width: 137px
+
+  .btn
+    padding: 0 20px
+
+  .gallery-slider__box
+    height: 300px
+    max-width: 450px
+
+  .gallery-slider .slick-current .gallery-slider__box
+    height: 500px
+    max-width: 650px
+
+  .slider-nav
+    max-width: 650px
+
+  .options
+    width: 330px
+
+  .apartment-plan
+    width: calc(100% - 330px)
+
+  .choice-box
+    padding: 30px
+
+  .apartment-plan-nav li
+    margin: 0 0 20px
+
+  .rooms-name
+    font-size: 18px
+
+  .price
+    font-size: 24px
+    margin: 30px 0
+
+  .options .btn
+    font-size: 18px
+    height: 44px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  header
+    .btn
+      font-size: 12px
+      padding: 0 10px
+
+  .logo
+    font-size: 11px
+
+  .logo-text
+    max-width: 100px
+
+  .logo-icon
+    width: 40px
+    margin: 0 10px 0 0
+
+  .menu
+    font-size: 13px
+
+  footer
+    padding: 20px 0
+
+    .logo
+      margin: 0 auto 0 0
+
+    .menu
+      width: 100%
+      order: 1
+      margin: 10px 0 0
+      justify-content: space-between
+
+      li
+        flex: auto
+
+      a
+        text-align: center
+
+  h1, h2, .home-content span
+    font-size: 40px
+
+  .news-slider-box__body .box-text
+    padding: 10px 0
+
+  .news-slider-box
+    padding: 20px
+
+  .booking .btn
+    margin: 20px auto
+    font-size: 18px
+    height: 44px
+    padding: 0 30px
+
+  .complex-advantages, .view
+    .btn
+      font-size: 18px
+      height: 44px
+
+  .advantages-box
+    font-size: 18px
+
+  .advantages-box__icon
+    width: 120px
+    height: 120px
+    padding: 30px
+
+  .about-content
+    padding: 0 0 10px
+    border: none
+      bottom: 1px solid #576c50
+    margin: 0 0 30px
+    .btn
+      margin: 30px auto 0
+    p
+      font-size: 18px
+
+  .about-img
+    margin: 0 auto
+
+  .page-contacts-item
+    font-size: 18px
+
+  .page-about-content
+    font-size: 18px
+
+  .list-check, .list-check li span
+    font-size: 18px
+
+  .complex-img, .house-item__img
+    margin: 20px auto 0
+
+  .house-item__content h3
+    font-size: 24px
+
+  .house-item
+    padding: 20px
+
+  .square
+    padding: 15px 0
+
+  .page-choice-item
+    width: 100%
+    max-width: none
+    &:first-child
+      width: 100%
+    &:last-child
+      order: -1
+      margin: 0 0 30px
+
+  .choice-box h3
+    font-size: 30px
+
+  .apartment-plan
+    width: 100%
+    padding: 0
+    margin: 0 0 30px
+
+  .options
+    width: 100%
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  header
+    .menu
+      display: none
+    .btn
+      display: none
+
+  .btn-burger
+    display: flex
+    margin: 0 0 0 auto
+
+  .map
+    position: relative
+    left: 0
+    top: 0
+    width: 100%
+    height: 250px
+    transform: none
+    bottom: 0
+
+  .contacts
+    padding: 20px 0 0
+    display: flex
+    flex-direction: column-reverse
+
+  .contacts-box
+    max-width: none
+    padding: 20px
+    width: 100%
+    font-size: 18px
+    h2
+      margin: 0 auto 20px
+      font-size: 24px
+
+  .phone
+    font-size: 24px
+    width: fit-content
+    padding: 5px 30px
+
+  .p-70
+    padding: 40px 0
+
+  .mb-60
+    margin: 0 0 30px
+
+  input
+    font-size: 15px
+
+  textarea
+    height: 90px
+    font-size: 15px
+
+  .form-footer
+    flex-direction: column
+    justify-content: flex-start
+
+  .form
+    .btn
+      margin: 20px auto 0
+      padding: 0 40px
+
+  h1, h2, .home-content span
+    font-size: 30px
+
+  .home-content span
+    margin: 30px 0
+
+  h2
+    margin: 0 auto 30px
+
+  .gallery-slider__box
+    height: 200px
+    max-width: 250px
+
+  .gallery-slider .slick-current .gallery-slider__box
+    height: 300px
+    max-width: 500px
+
+  .slider-nav
+    max-width: 500px
+
+  .home-content
+    padding: 70px 20px
+
+  .page-contacts-item
+    width: 100%
+
+  .page
+    h1
+      margin: 0 auto 30px
+
+  .page-about-content
+    width: 100%
+    padding: 20px 15px
+    .box-text
+      max-width: none
+
+  .page-about-img
+    width: 100%
+    order: 1
+
+  .page-about
+    padding: 40px 0 0
+
+@media only screen and (max-width: 576px)
+  .gallery-slider__box
+    height: auto
+    opacity: 1
+
+  .gallery-slider
+    padding: 0
+
+  .gallery-slider .slick-current
+    margin: 0 auto
+
+  .gallery-slider .slick-current .gallery-slider__box
+    height: auto
+    max-width: none
+
+  .slider-nav
+    max-width: 100%
+    .slick-next
+      right: 30px
+    .slick-prev
+      left: 30px
+
+  .about-content
+    p
+      font-size: 16px
+
+  .list-options li
+    flex-direction: column
+    align-items: flex-start
+    p
+      margin: 0 0 10px
+
+  .options-box h4
+    margin: 0 0 25px
+
+  .options-box
+    padding: 20px
+
+  .apartment-plan-nav
+    justify-content: space-around
+
+  .choice-box h3
+    width: 100%
+    text-align: center
+    margin: 0 auto 10px
+    font-size: 24px
+
+  .rooms-name
+    font-size: 16px
+    padding: 0 10px
+
+  .nav-choice
+    justify-content: space-between
+    li
+      margin: 0
+
+@media only screen and (max-width: 480px)
+  /**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px)
+  footer
+    .logo
+      margin: 0 auto 10px
+      width: 100%
+    .btn
+      margin: 10px auto 0
+      order: 1
+    .menu
+      margin: 0
+      li
+        margin: 0 0 5px
+        a
+          padding: 5px 7px
+
