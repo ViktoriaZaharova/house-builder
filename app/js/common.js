@@ -1,5 +1,5 @@
 $('.btn-burger').on('click', function () {
-   $('.mobile-menu').fadeToggle();
+    $('.mobile-menu').fadeToggle();
 });
 
 $('.btn-close').on('click', function () {
@@ -10,9 +10,10 @@ $('[name="phone"]').mask('+7 (999) 999-99-99');
 
 $('.gallery-slider').slick({
     slidesToShow: 3,
-   dots: true,
-   variableWidth: true,
-   centerMode: true,
+    dots: true,
+    variableWidth: true,
+    infinite: true,
+    centerMode: true,
     nextArrow: '<button type="button" class="slick-next"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\n' +
         '\t viewBox="0 0 512.002 512.002" style="enable-background:new 0 0 512.002 512.002;" xml:space="preserve">\n' +
         '<g>\n' +
@@ -105,7 +106,7 @@ $('.down').on("click", function () {
     $input.change();
     return false;
 });
-$('.up').on("click",function () {
+$('.up').on("click", function () {
     let $input = $(this).parent().find('input');
     $input.val(parseInt($input.val()) + 1);
     $input.change();
@@ -115,7 +116,7 @@ $('.up').on("click",function () {
 // Инициализация карты
 ymaps.ready(init);
 
-function init () {
+function init() {
 
     //Центрирование и выбор масштаба карты
     var myMap = new ymaps.Map('map', {
@@ -126,7 +127,7 @@ function init () {
     // Создание своей метки
     var myPlacemark = new ymaps.Placemark(
         // Координаты метки
-        [53.121761, 45.012432] , {
+        [53.121761, 45.012432], {
             // Свойства метки
             hintContent: '', //Подсказка при наведении на маркер
             iconContent: '',
@@ -148,7 +149,7 @@ function init () {
         // Список типов карты
         .add('typeSelector')
         // Кнопка изменения масштаба - справа
-        .add('smallZoomControl', { right: 5, top: 75 })
+        .add('smallZoomControl', {right: 5, top: 75})
         // Стандартный набор кнопок
         .add('mapTools')
         //Линейка масштаба

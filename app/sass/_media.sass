@@ -20,9 +20,11 @@
     height: 300px
     max-width: 450px
 
-  .gallery-slider .slick-current .gallery-slider__box
-    height: 500px
-    max-width: 650px
+  .gallery-slider .slick-center
+    transform: scale(1.45, 1.4)
+    .gallery-slider__box
+      margin: 70px auto
+
 
   .slider-nav
     max-width: 650px
@@ -244,10 +246,10 @@
   .gallery-slider__box
     height: 200px
     max-width: 250px
+    margin: 60px 0 0
 
-  .gallery-slider .slick-current .gallery-slider__box
-    height: 300px
-    max-width: 500px
+  .gallery-slider .slick-center
+    transform: scale(2, 1.8)
 
   .slider-nav
     max-width: 500px
@@ -279,16 +281,29 @@
   .gallery-slider__box
     height: auto
     opacity: 1
+    max-width: none
+    margin: 0 auto
+    padding: 10px
+    background: #fff
 
   .gallery-slider
+    padding: 0 15px
+    margin: 0
+
+  .gallery-slider .slick-slide
     padding: 0
+
+  .gallery-slider .slick-dots
+    margin: 20px auto 0
 
   .gallery-slider .slick-current
     margin: 0 auto
+    padding: 0
 
-  .gallery-slider .slick-current .gallery-slider__box
-    height: auto
-    max-width: none
+  .gallery-slider .slick-center
+    transform: none
+    .gallery-slider__box
+      margin: 0 auto
 
   .slider-nav
     max-width: 100%
