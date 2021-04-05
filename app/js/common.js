@@ -113,6 +113,8 @@ $('.up').on("click", function () {
     return false;
 });
 
+new WOW().init();
+
 // Инициализация карты
 ymaps.ready(init);
 
