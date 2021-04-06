@@ -926,6 +926,14 @@ button.close {
           box-shadow: 8.7px 9.7px 59px 0 rgba(0, 0, 0, 0.23);
   background-color: #fefefe;
   padding: 35px; }
+  .house-item .box-text {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.5; }
+    .house-item .box-text p {
+      margin: 0 0 20px; }
+      .house-item .box-text p:last-child {
+        margin: 0; }
 
 .house-item__img {
   width: 100%;
