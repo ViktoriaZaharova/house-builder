@@ -1638,10 +1638,11 @@ button.close {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .nav-choice li {
-      margin: 0; } }
-
-@media only screen and (max-width: 480px) {
-  /**/ }
+      margin: 0; }
+  .house-item__img {
+    height: 270px; }
+  .house-item .box-text {
+    font-size: 16px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px) {
